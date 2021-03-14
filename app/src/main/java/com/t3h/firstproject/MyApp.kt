@@ -9,5 +9,6 @@ class MyApp : Application() {
     override fun onCreate() {
         super.onCreate()
         Log.d("MyApp", "onCreate...........")
+        Log.d("MyApp", "onCreate Test...........")
     }
 }

@@ -104,6 +104,11 @@ class DemoActivity : AppCompatActivity(), View.OnClickListener, View.OnLongClick
 
                 //mo activity quan tam ket qua
                 startActivityForResult(intent, 100)
+                //thuc hien animation
+                overridePendingTransition(
+                    R.anim.open_eneter,
+                    R.anim.open_exit
+                )
             }
             R.id.btn_message -> {
                 val sendIntent = Intent(Intent.ACTION_VIEW)

@@ -6,7 +6,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <ImageView
+        <com.t3h.firstproject.customview.MyImageView
             android:id="@+id/btn_img"
             android:layout_width="112dp"
             android:layout_height="112dp"
@@ -33,5 +33,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Set" />
+
+        <Button
+            android:id="@+id/btn_translate_properties"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Translate properties" />
     </LinearLayout>
 </layout>

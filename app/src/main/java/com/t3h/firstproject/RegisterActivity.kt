@@ -56,7 +56,20 @@ class RegisterActivity : AppCompatActivity(), View.OnClickListener {
                     setResult(Activity.RESULT_CANCELED)
                 }
                 finish()
+                //thuc hien animation
+                overridePendingTransition(
+                    R.anim.back_open,
+                    R.anim.back_exit
+                )
             }
         }
+    }
+
+    override fun onBackPressed() {
+        super.onBackPressed()
+        overridePendingTransition(
+            R.anim.back_open,
+            R.anim.back_exit
+        )
     }
 }

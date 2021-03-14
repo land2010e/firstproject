@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<com.t3h.firstproject.StatusCircleImageViewKotlin
+    android:layout_width="256dp"
+    android:src="@drawable/aodai_1"
+    android:layout_height="256dp"
+    app:colorStatus="#00BCD4"
+    app:isActive="true"
+    android:id="@+id/iv_avatar"
+    app:radiusSatus="12dp" />
+
+    <com.t3h.firstproject.ClockView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/iv_avatar"
+        android:layout_marginTop="1dp"
+        app:datePadding="186dp"
+        app:fontSizeDate="32dp"
+        app:colorFont="#FF5722"
+        app:fontSizeTime="56sp"
+        app:sizeBorder="6dp"
+        app:facePadding="212dp"
+        app:timePadding="112sp" />
+</RelativeLayout>

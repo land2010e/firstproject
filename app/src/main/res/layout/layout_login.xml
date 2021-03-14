@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:background="@color/colorPrimary"
+        android:gravity="center"
+        android:text="@string/Login"
+        android:textColor="#FFFFFF"
+        android:textSize="56sp"
+        android:textStyle="bold" />
+
+<!--    <com.google.android.material.textfield.TextInputLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginLeft="32dp"-->
+<!--        android:layout_marginTop="32dp"-->
+<!--        style="@style/EditText"-->
+<!--        android:theme="@style/EditText"-->
+<!--        android:hint="@string/Username"-->
+<!--        android:layout_marginRight="32dp">-->
+
+<!--        <com.google.android.material.textfield.TextInputEditText-->
+<!--            style="@style/EditText"-->
+<!--            android:theme="@style/EditText"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content" />-->
+<!--    </com.google.android.material.textfield.TextInputLayout>-->
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="56dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/bg_edt"
+        android:drawableLeft="@drawable/baseline_perm_identity_purple_500_36dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="@string/Username"
+        android:lines="1"
+        android:padding="16dp"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="48dp"
+        android:background="@drawable/bg_edt"
+        android:drawableLeft="@drawable/baseline_lock_open_purple_500_36dp"
+        android:drawablePadding="8dp"
+        android:gravity="center_vertical"
+        android:hint="@string/Password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:padding="16dp" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="56dp"
+        android:background="@drawable/demo_selector"
+        android:text="@string/Login"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="16dp"
+        android:text="@string/Register_under"
+        android:id="@+id/tv_register"
+        android:textColor="@color/colorPrimary" />
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_message"
+        android:text="Message"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_open_music"
+        android:text="Music"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

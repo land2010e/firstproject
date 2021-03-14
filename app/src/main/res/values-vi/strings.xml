@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Login">Đăng nhập</string>
+    <string name="Password">Mật khẩu</string>
+    <string name="Username">Tên đăng nhập</string>
+</resources>

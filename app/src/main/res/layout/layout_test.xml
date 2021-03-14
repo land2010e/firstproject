@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello Test Ahihi Hii"
+        android:textSize="56sp"
+        android:textColor="#F44336"
+        android:lines="1"
+
+        android:textStyle="bold|italic"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:lines="1"
+        android:textSize="46sp"
+        android:hint="Username"
+        android:textColorHint="#000000"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="match_parent"
+        android:text="Click me"
+        android:textAllCaps="false"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

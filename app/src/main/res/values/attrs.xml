@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="StatusCircleImageViewKotlin">
+        <attr name="colorStatus" format="color"/>
+        <attr name="radiusSatus" format="dimension"/>
+        <attr name="isActive" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="ClockView">
+        <attr name="colorBorder" format="color"/>
+        <attr name="colorFont" format="color"/>
+        <attr name="sizeBorder" format="dimension"/>
+        <attr name="timePadding" format="dimension"/>
+        <attr name="datePadding" format="dimension"/>
+        <attr name="fontSizeTime" format="dimension"/>
+        <attr name="fontSizeDate" format="dimension"/>
+        <attr name="facePadding" format="dimension"/>
+        <attr name="imageFace" format="reference"/>
+    </declare-styleable>
+</resources>
